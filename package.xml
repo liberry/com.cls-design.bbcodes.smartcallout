@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.cls-design.bbcodes.smartcallout" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	
+	<packageinformation>
+		<packagename>SmartCallout - BBCode</packagename>
+		<packagedescription><![CDATA[With the SmartCallout BBCode everyone can easily highlight certain passages within his/her text.]]></packagedescription>
+		<packagedescription languagecode="de"><![CDATA[ Mit dem SmartCallout BBcode können Sie ganz einfach bestimmte Textstellen in Ihrem Text hervorheben.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2015-03-13</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>LiberrY</author>
+		<authorurl>http://www.cls-design.com</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="2.1.0 RC 2">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+
+	<instructions type="install">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+	</instructions>
+
+</package>
