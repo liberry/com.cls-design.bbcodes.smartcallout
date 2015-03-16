@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/bbcode.xsd">
+	<import>
+	
+		<!-- box bbcode -->
+		<bbcode name="scallout">
+			<classname><![CDATA[wcf\system\bbcode\SmartCalloutBBCode]]></classname>
+			<attributes>
+                <attribute name="0">
+					<required>1</required>
+					<validationpattern>^(#([0-9a-f]{3}|[0-9a-f]{6})|[a-z]+)$</validationpattern>
+				</attribute>
+				<attribute name="1">
+					<required>0</required>
+				</attribute>
+				<attribute name="2">
+					<required>0</required>
+				</attribute>
+            </attributes>
+			<allowedchildren>all</allowedchildren>
+			<wysiwygicon>fa-thumb-tack</wysiwygicon>
+			<buttonlabel>wcf.bbcode.button.smartcallout</buttonlabel>
+		</bbcode>
+
+
+	</import>
+</data>
