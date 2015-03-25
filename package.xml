@@ -5,7 +5,7 @@
 		<packagename>SmartCallout - BBCode</packagename>
 		<packagedescription><![CDATA[With the SmartCallout BBCode everyone can easily highlight certain passages within his/her text.]]></packagedescription>
 		<packagedescription languagecode="de"><![CDATA[ Mit dem SmartCallout BBcode können Sie ganz einfach bestimmte Textstellen in Ihrem Text hervorheben.]]></packagedescription>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<date>2015-03-13</date>
 	</packageinformation>
 	
@@ -25,5 +25,11 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="bbcode">xml/bbcode.xml</instruction>
 	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+
 
 </package>
